@@ -17,4 +17,10 @@ export default defineConfig({
 	server: {
 		port: 3000,
 	},
+	build: {
+		// This forces Vite to use standard Rollup instead of experimental Rolldown
+		rollupOptions: {
+			// Keep your existing config here
+		},
+	},
 });

@@ -33,7 +33,9 @@ const Portfolio = () => {
 
 				{/* Floating Pill Navigation */}
 				<nav className="fixed top-6 left-1/2 transform -translate-x-1/2 bg-white/40 backdrop-blur-md shadow-clay rounded-full px-6 py-3 flex items-center gap-4 md:gap-8 z-50">
-					<a className="font-extrabold text-sm tracking-widest text-blue-600 hidden md:block">
+					<a
+						href="/home/dashboard"
+						className="font-extrabold text-sm tracking-widest text-blue-600 hidden md:block hover:cursor-pointer">
 						KS
 					</a>
 					<a
